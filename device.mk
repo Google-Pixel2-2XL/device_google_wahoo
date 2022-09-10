@@ -224,7 +224,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Skia tracing
 PRODUCT_PROPERTY_OVERRIDES += \
-    debug.hwui.skia_atrace_enabled=false
+    debug.hwui.skia_atrace_enabled=false \
+    ebug.hwui.renderer=skiagl \
+    debug.renderengine.backend=skiaglthreaded
 
 # b/73640835
 PRODUCT_PROPERTY_OVERRIDES += \
