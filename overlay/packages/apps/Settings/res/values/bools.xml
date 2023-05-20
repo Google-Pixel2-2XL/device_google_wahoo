@@ -20,4 +20,7 @@
 
     <!-- Whether to show Camera laser sensor switch in Developer Options -->
     <bool name="config_show_camera_laser_sensor">true</bool>
+
+    <!-- Battery health -->
+    <bool name="config_supportBatteryHealth">false</bool>
 </resources>
