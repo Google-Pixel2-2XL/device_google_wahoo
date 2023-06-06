@@ -399,6 +399,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     NowPlayingOverlay
 
+# Camera
+PRODUCT_PACKAGES += \
+    GcamePrebuilt
+
 PRODUCT_PACKAGES += \
     SecureElement
 
