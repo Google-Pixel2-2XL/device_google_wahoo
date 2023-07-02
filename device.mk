@@ -488,6 +488,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     NowPlayingOverlay
 
+# GoogleCamera
+PRODUCT_PACKAGES += \
+    GcamePrebuilt
+
 # Audio effects
 PRODUCT_PACKAGES += \
     libvolumelistener \
