@@ -405,7 +405,7 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    GcamePrebuilt
+    GcamPrebuilt
 
 PRODUCT_PACKAGES += \
     SecureElement
