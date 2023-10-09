@@ -494,6 +494,7 @@ endif
 PRODUCT_PACKAGES += \
     android.hardware.wifi-service \
     wificond \
+    libcld80211 \
     libwpa_client \
     WifiOverlay
 
