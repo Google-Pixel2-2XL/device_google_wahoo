@@ -498,6 +498,10 @@ PRODUCT_PACKAGES += \
     libwpa_client \
     WifiOverlay
 
+# Protobuf
+PRODUCT_PACKAGES += \
+    libprotobuf-cpp-full-3.9.1-vendorcompat
+
 # Connectivity
 PRODUCT_PACKAGES += \
     ConnectivityOverlay
