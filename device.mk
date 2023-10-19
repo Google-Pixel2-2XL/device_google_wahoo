@@ -687,9 +687,9 @@ endif
 PRODUCT_PACKAGES += \
     android.hardware.dumpstate@1.0-service.wahoo
 
-# Use daemon to detect folio open/close
-PRODUCT_PACKAGES += \
-    folio_daemon
+# # Use daemon to detect folio open/close
+# PRODUCT_PACKAGES += \
+#     folio_daemon
 
 # Storage: for factory reset protection feature
 PRODUCT_PROPERTY_OVERRIDES += \
