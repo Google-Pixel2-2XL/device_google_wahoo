@@ -14,12 +14,8 @@
 # limitations under the License.
 #
 
-# Enable updating of APEXes
-$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
-
-# Disable APEX compression
-# Keep this after including updatable_apex.mk
-PRODUCT_COMPRESSED_APEX := false
+# Flatten APEXs for performance
+OVERRIDE_TARGET_FLATTEN_APEX := true
 
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 PRODUCT_ACTIONABLE_COMPATIBLE_PROPERTY_DISABLE := true
