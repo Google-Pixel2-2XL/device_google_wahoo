@@ -216,7 +216,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # graphics
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.opengles.version=196610 \
-    ro.hwui.render_ahead=10
+    ro.hwui.render_ahead=10 \
+    ro.hardware.egl=adreno \
 
 # b/73640835
 PRODUCT_PROPERTY_OVERRIDES += \
