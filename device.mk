@@ -14,9 +14,6 @@
 # limitations under the License.
 #
 
-# Flatten APEXs for performance
-OVERRIDE_TARGET_FLATTEN_APEX := true
-
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 PRODUCT_ACTIONABLE_COMPATIBLE_PROPERTY_DISABLE := true
 
@@ -214,16 +211,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.opengles.version=196610 \
     ro.hwui.render_ahead=10
 
-# AutoSingleLayer
-PRODUCT_PROPERTY_OVERRIDES += \
-   debug.sf.auto_latch_unsignaled=true
-
-# Skia tracing
-PRODUCT_PROPERTY_OVERRIDES += \
-    debug.hwui.skia_atrace_enabled=false \
-    ebug.hwui.renderer=skiagl \
-    debug.renderengine.backend=skiaglthreaded
-
 # b/73640835
 PRODUCT_PROPERTY_OVERRIDES += \
     sdm.debug.rotator_downscale=1
@@ -278,7 +265,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.zram_enabled=1
 
 PRODUCT_PROPERTY_OVERRIDES += \
-  ro.vendor.extension_library=libqti-perfd-client.so
+    ro.vendor.extension_library=libqti-perfd-client.so
 
 # settings to enable Device Orientation Sensors
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -305,14 +292,14 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # camera gyro and laser sensor
 PRODUCT_PROPERTY_OVERRIDES += \
-  persist.camera.gyro.android=20 \
-  persist.camera.tof.direct=1 \
-  persist.camera.max.previewfps=60 \
-  persist.camera.sensor.hdr=2
+    persist.camera.gyro.android=20 \
+    persist.camera.tof.direct=1 \
+    persist.camera.max.previewfps=60 \
+    persist.camera.sensor.hdr=2
 
 # camera TNR controls
 PRODUCT_PROPERTY_OVERRIDES += \
-  persist.camera.tnr.video=1 \
+    persist.camera.tnr.video=1 \
 
 # WLAN driver configuration files
 PRODUCT_COPY_FILES += \
@@ -409,7 +396,7 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    GcamePrebuilt
+    GcamPrebuilt
 
 PRODUCT_PACKAGES += \
     SecureElement
