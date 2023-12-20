@@ -108,10 +108,6 @@ SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS := device/google/wahoo/sepolicy/private
 BOARD_VENDOR_SEPOLICY_DIRS += device/google/wahoo/sepolicy/verizon
 BOARD_VENDOR_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/citadel
 BOARD_VENDOR_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/powerstats
-BOARD_VENDOR_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/wifi_perf_diag
-BOARD_VENDOR_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/turbo_adapter
-BOARD_VENDOR_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/flipendo
-BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/googlebattery
 
 TARGET_FS_CONFIG_GEN := device/google/wahoo/config.fs
 

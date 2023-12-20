@@ -27,6 +27,3 @@ type vendor_wifi_sniffer_prop, property_type;
 
 # fingerprint
 type vendor_fingerprint_prop, property_type;
-
-# hal_health
-vendor_internal_prop(vendor_battery_defender_prop)
